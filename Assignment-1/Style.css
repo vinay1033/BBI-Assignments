@@ -1,0 +1,45 @@
+body { font-family: Arial, sans-serif; margin: 20px; }
+button { margin: 10px 5px; }
+#output { margin-top: 20px; white-space: pre-wrap; }
+
+#progress-container {
+width: 100%;
+background-color: #ddd;
+border-radius: 10px;
+overflow: hidden;
+height: 20px;
+margin-top: 10px;
+}
+
+
+
+#progress-bar {
+width: 0;
+height: 100%;
+background-color: #317ced;
+transition: width 0.2s;
+}
+
+.content,#output{
+    text-align: center;
+}
+
+#limit{
+    
+    text-align: center;
+    padding: 5px;
+    width: 250px;
+}
+
+
+button{
+    padding: 10px;
+    font-size: medium;
+    border: none;
+    background-color: rgb(39, 99, 229);
+    color: white;
+}
+
+button:hover{
+    background-color: rgb(55, 125, 223);
+}
